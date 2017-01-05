@@ -1,0 +1,22 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack",
+    "reactstart":"webpack-dev-server --content-base build/ --hot --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.9",
+    "react-hot-loader": "^1.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react-toastr": "^2.8.2"
+  }
+}

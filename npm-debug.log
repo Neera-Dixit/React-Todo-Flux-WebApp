@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-router-active-component' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of D:\UI\ReactJS Application\Todo App with Flux\package.json
+5 warn package.json reactjs@1.0.0 No description
+6 warn package.json reactjs@1.0.0 No repository field.
+7 warn package.json reactjs@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\babel-core\package.json
+9 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\babel-loader\package.json
+10 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\events\package.json
+11 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\flux\package.json
+12 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\jquery\package.json
+13 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react\package.json
+14 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-hot-loader\package.json
+15 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router\package.json
+16 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-toastr\package.json
+17 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\toastr\package.json
+18 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\webpack\package.json
+19 verbose installManyTop reading scoped package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\webpack-dev-server\package.json
+20 info package.json events@1.1.1 events is also the name of a node core module.
+21 info package.json toastr@2.1.2 No license field.
+22 verbose readDependencies loading dependencies from D:\UI\ReactJS Application\Todo App with Flux\package.json
+23 silly cache add args [ 'react-router-active-component', null ]
+24 verbose cache add spec react-router-active-component
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'react-router-active-component',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'react-router-active-component',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: 'latest',
+25 silly cache add   type: 'tag' }
+26 silly addNamed react-router-active-component@latest
+27 verbose addNamed "latest" is being treated as a dist-tag for react-router-active-component
+28 info addNameTag [ 'react-router-active-component', 'latest' ]
+29 silly mapToRegistry name react-router-active-component
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'react-router-active-component',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   name: 'react-router-active-component',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/react-router-active-component
+34 verbose addNameTag registry:https://registry.npmjs.org/react-router-active-component not in flight; fetching
+35 verbose request uri https://registry.npmjs.org/react-router-active-component
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 8:38:08 AM
+38 verbose request id 872e7b1b0b4f49d4
+39 http request GET https://registry.npmjs.org/react-router-active-component
+40 http 200 https://registry.npmjs.org/react-router-active-component
+41 verbose headers { server: 'nginx/1.10.1',
+41 verbose headers   'content-type': 'application/json',
+41 verbose headers   'last-modified': 'Sun, 10 Jul 2016 17:05:34 GMT',
+41 verbose headers   etag: 'W/"5782805e-416c"',
+41 verbose headers   'content-encoding': 'gzip',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '3792',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Tue, 13 Dec 2016 08:38:10 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '0',
+41 verbose headers   connection: 'close',
+41 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1481618290.519029,VS0,VE131',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 silly get cb [ 200,
+42 silly get   { server: 'nginx/1.10.1',
+42 silly get     'content-type': 'application/json',
+42 silly get     'last-modified': 'Sun, 10 Jul 2016 17:05:34 GMT',
+42 silly get     etag: 'W/"5782805e-416c"',
+42 silly get     'content-encoding': 'gzip',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     'content-length': '3792',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Tue, 13 Dec 2016 08:38:10 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '0',
+42 silly get     connection: 'close',
+42 silly get     'x-served-by': 'cache-nrt6132-NRT',
+42 silly get     'x-cache': 'MISS',
+42 silly get     'x-cache-hits': '0',
+42 silly get     'x-timer': 'S1481618290.519029,VS0,VE131',
+42 silly get     vary: 'Accept-Encoding' } ]
+43 verbose get saving react-router-active-component to C:\Users\rh66\AppData\Roaming\npm-cache\registry.npmjs.org\react-router-active-component\.cache.json
+44 verbose correctMkdir C:\Users\rh66\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+45 silly addNameTag next cb for react-router-active-component with tag latest
+46 silly addNamed react-router-active-component@4.0.0
+47 verbose addNamed "4.0.0" is a plain semver version for react-router-active-component
+48 silly mapToRegistry name react-router-active-component
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: 'react-router-active-component',
+51 silly mapToRegistry   scope: null,
+51 silly mapToRegistry   name: 'react-router-active-component',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/react-router-active-component
+53 verbose addRemoteTarball https://registry.npmjs.org/react-router-active-component/-/react-router-active-component-4.0.0.tgz not in flight; adding
+54 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-router-active-component/-/react-router-active-component-4.0.0.tgz',
+54 verbose addRemoteTarball   '36fdd03915168aad521e941a76d19d8c56653533' ]
+55 info retry fetch attempt 1 at 8:38:10 AM
+56 info attempt registry request try #1 at 8:38:10 AM
+57 http fetch GET https://registry.npmjs.org/react-router-active-component/-/react-router-active-component-4.0.0.tgz
+58 http fetch 200 https://registry.npmjs.org/react-router-active-component/-/react-router-active-component-4.0.0.tgz
+59 silly fetchAndShaCheck shasum 36fdd03915168aad521e941a76d19d8c56653533
+60 verbose addTmpTarball C:\Users\rh66\AppData\Local\Temp\npm-2684-da70d54d\registry.npmjs.org\react-router-active-component\-\react-router-active-component-4.0.0.tgz not in flight; adding
+61 verbose addTmpTarball already have metadata; skipping unpack for react-router-active-component@4.0.0
+62 verbose correctMkdir C:\Users\rh66\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+63 silly cache afterAdd react-router-active-component@4.0.0
+64 verbose afterAdd C:\Users\rh66\AppData\Roaming\npm-cache\react-router-active-component\4.0.0\package\package.json not in flight; writing
+65 verbose correctMkdir C:\Users\rh66\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+66 verbose afterAdd C:\Users\rh66\AppData\Roaming\npm-cache\react-router-active-component\4.0.0\package\package.json written
+67 silly install resolved [ { name: 'react-router-active-component',
+67 silly install resolved     version: '4.0.0',
+67 silly install resolved     description: 'Factory function for React components which are active for a particular react-router route',
+67 silly install resolved     main: 'lib/index.js',
+67 silly install resolved     'jsnext:main': 'es6/index.js',
+67 silly install resolved     files: [ 'es6', 'lib' ],
+67 silly install resolved     scripts:
+67 silly install resolved      { build: 'npm run lint && nwb build',
+67 silly install resolved        lint: 'eslint src tests demo/src',
+67 silly install resolved        start: 'nwb serve',
+67 silly install resolved        test: 'npm run build && nwb test',
+67 silly install resolved        'test:watch': 'nwb test --server' },
+67 silly install resolved     dependencies: {},
+67 silly install resolved     peerDependencies: { react: '>=0.14.0', 'react-router': '2.x' },
+67 silly install resolved     devDependencies:
+67 silly install resolved      { 'eslint-config-jonnybuchanan': '3.2.1',
+67 silly install resolved        nwb: '0.11.0',
+67 silly install resolved        react: '15.2.1',
+67 silly install resolved        'react-addons-test-utils': '15.2.1',
+67 silly install resolved        'react-dom': '15.2.1',
+67 silly install resolved        'react-router': '2.5.2',
+67 silly install resolved        bootstrap: '3.3.6' },
+67 silly install resolved     author: { name: 'Jonny Buchanan', email: 'jonathan.buchanan@gmail.com' },
+67 silly install resolved     homepage: 'https://github.com/insin/react-router-active-component',
+67 silly install resolved     license: 'MIT',
+67 silly install resolved     repository:
+67 silly install resolved      { type: 'git',
+67 silly install resolved        url: 'git+ssh://git@github.com/insin/react-router-active-component.git' },
+67 silly install resolved     keywords:
+67 silly install resolved      [ 'react',
+67 silly install resolved        'react-router',
+67 silly install resolved        'active',
+67 silly install resolved        'component',
+67 silly install resolved        'react-higher-order-component' ],
+67 silly install resolved     gitHead: '14f2c0e18190037f1916ed0d25d67d22644bdd70',
+67 silly install resolved     bugs: { url: 'https://github.com/insin/react-router-active-component/issues' },
+67 silly install resolved     _id: 'react-router-active-component@4.0.0',
+67 silly install resolved     _shasum: '36fdd03915168aad521e941a76d19d8c56653533',
+67 silly install resolved     _from: 'react-router-active-component@latest',
+67 silly install resolved     _npmVersion: '2.14.16',
+67 silly install resolved     _nodeVersion: '4.4.6',
+67 silly install resolved     _npmUser: { name: 'insin', email: 'jonathan.buchanan@gmail.com' },
+67 silly install resolved     dist:
+67 silly install resolved      { shasum: '36fdd03915168aad521e941a76d19d8c56653533',
+67 silly install resolved        tarball: 'https://registry.npmjs.org/react-router-active-component/-/react-router-active-component-4.0.0.tgz' },
+67 silly install resolved     maintainers: [ [Object] ],
+67 silly install resolved     _npmOperationalInternal:
+67 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+67 silly install resolved        tmp: 'tmp/react-router-active-component-4.0.0.tgz_1468170331585_0.20932771847583354' },
+67 silly install resolved     directories: {},
+67 silly install resolved     _resolved: 'https://registry.npmjs.org/react-router-active-component/-/react-router-active-component-4.0.0.tgz' } ]
+68 info install react-router-active-component@4.0.0 into D:\UI\ReactJS Application\Todo App with Flux
+69 info installOne react-router-active-component@4.0.0
+70 verbose installOne of react-router-active-component to D:\UI\ReactJS Application\Todo App with Flux not in flight; installing
+71 verbose correctMkdir C:\Users\rh66\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+72 verbose lock using C:\Users\rh66\AppData\Roaming\npm-cache\_locks\react-router-active-comp-1edadafa98c7a2cf.lock for D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+73 silly install write writing react-router-active-component 4.0.0 to D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+74 verbose unbuild node_modules\react-router-active-component
+75 silly gentlyRm D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component is being purged from base D:\UI\ReactJS Application\Todo App with Flux
+76 verbose gentlyRm don't care about contents; nuking D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+77 verbose tar unpack C:\Users\rh66\AppData\Roaming\npm-cache\react-router-active-component\4.0.0\package.tgz
+78 verbose tar unpacking to D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+79 silly gentlyRm D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component is being purged
+80 verbose gentlyRm don't care about contents; nuking D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+81 silly gunzTarPerm modes [ '777', '666' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry LICENSE
+85 silly gunzTarPerm extractEntry CHANGES.md
+86 silly gunzTarPerm extractEntry es6/index.js
+87 silly gunzTarPerm extractEntry lib/index.js
+88 verbose write writing to D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component\package.json
+89 info preinstall react-router-active-component@4.0.0
+90 verbose readDependencies loading dependencies from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component\package.json
+91 silly prepareForInstallMany adding react-router@2.x from react-router-active-component peerDependencies
+92 warn peerDependencies The peer dependency react-router@2.x included from react-router-active-component will no
+93 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+94 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+95 verbose readDependencies loading dependencies from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component\package.json
+96 silly install resolved []
+97 verbose about to build D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+98 info build D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+99 info linkStuff react-router-active-component@4.0.0
+100 silly linkStuff react-router-active-component@4.0.0 has D:\UI\ReactJS Application\Todo App with Flux\node_modules as its parent node_modules
+101 verbose linkBins react-router-active-component@4.0.0
+102 verbose linkMans react-router-active-component@4.0.0
+103 verbose rebuildBundles react-router-active-component@4.0.0
+104 info install react-router-active-component@4.0.0
+105 info postinstall react-router-active-component@4.0.0
+106 verbose readDependencies loading dependencies from D:\UI\ReactJS Application\Todo App with Flux\package.json
+107 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\babel-core\package.json
+108 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\babel-loader\package.json
+109 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\events\package.json
+110 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\flux\package.json
+111 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\jquery\package.json
+112 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react\package.json
+113 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-hot-loader\package.json
+114 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router\package.json
+115 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component\package.json
+116 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-toastr\package.json
+117 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\toastr\package.json
+118 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\webpack\package.json
+119 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\webpack-dev-server\package.json
+120 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\.bin\webpack\package.json
+121 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\.bin\webpack-dev-server\package.json
+122 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\.bin\webpack-dev-server.cmd\package.json
+123 verbose targetResolver reading package data from D:\UI\ReactJS Application\Todo App with Flux\node_modules\.bin\webpack.cmd\package.json
+124 verbose already installed skipping react-router@2.x D:\UI\ReactJS Application\Todo App with Flux
+125 silly install resolved []
+126 verbose unlock done using C:\Users\rh66\AppData\Roaming\npm-cache\_locks\react-router-active-comp-1edadafa98c7a2cf.lock for D:\UI\ReactJS Application\Todo App with Flux\node_modules\react-router-active-component
+127 verbose validateInstall loading D:\UI\ReactJS Application\Todo App with Flux\package.json for validation
+128 verbose stack Error: The package react-router@3.0.0 does not satisfy its siblings' peerDependencies requirements!
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+128 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+128 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+128 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+128 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+129 verbose cwd D:\UI\ReactJS Application\Todo App with Flux
+130 error Windows_NT 6.1.7601
+131 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-router-active-component"
+132 error node v4.5.0
+133 error npm  v2.15.9
+134 error code EPEERINVALID
+135 error peerinvalid The package react-router@3.0.0 does not satisfy its siblings' peerDependencies requirements!
+135 error peerinvalid Peer react-router-active-component@4.0.0 wants react-router@2.x
+136 verbose exit [ 1, true ]

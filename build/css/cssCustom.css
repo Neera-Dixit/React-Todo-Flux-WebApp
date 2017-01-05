@@ -1,0 +1,10 @@
+.nav>li>a.activeLink{
+	background-color:#153d5f;
+	border-radius: 60px;
+	color:white;
+}
+
+.navig-bar{
+	height:80px;
+	background-color:#e0e0d1;
+}
